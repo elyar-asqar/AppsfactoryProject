@@ -1,0 +1,509 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-19T22:30:01.800Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5464295600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.apps_factory.step_definition.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "As a new Amazon user, I want to search for the cheapest Snickers and Skittles on the page",
+        "description": "",
+        "id": "search-cheapest-products;as-a-new-amazon-user--i-want-to-search-for-the-cheapest-snickers-and-skittles-on-the-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1377316700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.apps_factory.step_definition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4575148800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the Amazon home page",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_is_on_the_Amazon_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7429808700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user selects English language",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_selects_English_language()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 271790900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"Snickers\" in the searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Snickers\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_enters_in_the_searchBox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2759032800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks search icon",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_clicks_search_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22935400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on the searched product result page",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_is_on_the_searched_product_result_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 782434500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks Sort by dropDown",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_clicks_Sort_by_dropDown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6263789500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user selects Price: Low to High option",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_selects_Price_Low_to_High_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12144214300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects the searched product with lowest price",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_selects_the_searched_product_with_lowest_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11970000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on the searched product detail page",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_is_on_the_searched_product_detail_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4117317200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should see the correct searched product details",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_should_see_the_correct_searched_product_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3374693000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks add to basket button",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_clicks_add_to_basket_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1643450400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks basket button",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_clicks_basket_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 372818700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on the Shopping Basket page",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_is_on_the_Shopping_Basket_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 391955100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should see the searched products",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_should_see_the_searched_products()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87232800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user checks if the basket calculates the result correctly",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_checks_if_the_basket_calculates_the_result_correctly()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3324082000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clicks  checkout button",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.clicks_checkout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43890000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user gets redirected to the registration page",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.the_user_gets_redirected_to_the_registration_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-19T22:30:56.519Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3750996700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.apps_factory.step_definition.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "As a new Amazon user, I want to search for the cheapest Snickers and Skittles on the page",
+        "description": "",
+        "id": "search-cheapest-products;as-a-new-amazon-user--i-want-to-search-for-the-cheapest-snickers-and-skittles-on-the-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1463549200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.apps_factory.step_definition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5056884200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the Amazon home page",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_is_on_the_Amazon_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7403938400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user selects English language",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_selects_English_language()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 239073500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"Skittles\" in the searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Skittles\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_enters_in_the_searchBox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2723669000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks search icon",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_clicks_search_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18974400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on the searched product result page",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_is_on_the_searched_product_result_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 982122200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks Sort by dropDown",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_clicks_Sort_by_dropDown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6260129300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user selects Price: Low to High option",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_selects_Price_Low_to_High_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16062534700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects the searched product with lowest price",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_selects_the_searched_product_with_lowest_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16957200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on the searched product detail page",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_is_on_the_searched_product_detail_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4120933700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should see the correct searched product details",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_should_see_the_correct_searched_product_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3197719600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks add to basket button",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_clicks_add_to_basket_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1671117800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks basket button",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_clicks_basket_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164561400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on the Shopping Basket page",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_is_on_the_Shopping_Basket_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 263340600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should see the searched products",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_should_see_the_searched_products()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122672200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user checks if the basket calculates the result correctly",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.user_checks_if_the_basket_calculates_the_result_correctly()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3505511500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clicks  checkout button",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.clicks_checkout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28921300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user gets redirected to the registration page",
+            "match": {
+              "location": "com.apps_factory.step_definition.Search_cheapest_product.the_user_gets_redirected_to_the_registration_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "search cheapest products",
+    "description": "",
+    "id": "search-cheapest-products",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/search_cheapest_product.feature",
+    "tags": []
+  }
+]
